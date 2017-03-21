@@ -1,4 +1,4 @@
-#**Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django**
+#Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django**
 
 
 **The Problem
