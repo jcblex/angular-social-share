@@ -1,4 +1,4 @@
-(#)**Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django**
+**Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django**
 
 
 **The Problem
@@ -10,7 +10,7 @@ Search engines crawlers (or bots) were originally designed to crawl HTML content
 **Problem With AngularJS**
 
 If I wanted to share something say a video with your Facebook friends, you’d paste the link into the status update box and hope to see something like this: 
-
+[](https://github.com/jcblex/angular-social-share/blob/master/tintin.png?raw=true)
 However, even though you've have included all the necessary Open Graph meta tags, when I paste my link, I will be disappointed to see something more like this:
 
 **The Reason**
