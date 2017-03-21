@@ -1,20 +1,19 @@
-Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django
+(#)**Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django**
 
 
-The Problem
+**The Problem
 
 If yours is a public app, then rich social sharing is something you can't miss in your app.Facebook, Twitter,Google+ can fetch more than just the page title and image. This is achieved by using special meta tags in the HTML head. For example, Facebook and some other sites can read the Open Graph protocol.Twitter uses a very similar system, but with a prefix of “twitter:” rather than “og:”.
 
 Search engines crawlers (or bots) were originally designed to crawl HTML content of web pages. As the web evolved, so did the technologies powering websites and JavaScript became an unavoidable part of the web.
 
-Problem With AngularJS
+**Problem With AngularJS**
 
 If I wanted to share something say a video with your Facebook friends, you’d paste the link into the status update box and hope to see something like this: 
-<image>
-However, even though you've have included all the necessary Open Graph meta tags, when I paste my link, I will be disappointed to see something more like this:
-<image>
 
-The Reason 
+However, even though you've have included all the necessary Open Graph meta tags, when I paste my link, I will be disappointed to see something more like this:
+
+**The Reason**
 
 The crawlers that scrape the HTML do not evaluate JavaScript. Therefore, when they crawl the app, this is what they will see:
 
@@ -25,7 +24,7 @@ The crawlers that scrape the HTML do not evaluate JavaScript. Therefore, when th
     <!-- etc. -->
 </head>
 
-The Solution
+**The Solution
 
 The solution is basically to pass the  social media crawler a custom url with a slug which generates a custom page that will contain the desired meta tags, all filled with the correct information when the social media crawler arrives.
 
