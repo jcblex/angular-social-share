@@ -27,18 +27,18 @@ The crawlers that scrape the HTML do not evaluate JavaScript. Therefore, when th
 
 The solution is basically to pass the  social media crawler a custom url with a slug which generates a custom page that will contain the desired meta tags, all filled with the correct information when the social media crawler arrives.
 
-What we will need
+**What we will need
 
-1. An angularjs directive for sharing urls and content on social networks such as (facebook, google+, twitter, pinterest and so on).
+*1.* An angularjs directive for sharing urls and content on social networks such as (facebook, google+, twitter, pinterest and so on).
 
-Here Angular Socialshare directive is used.
-
-
+Here Angular ***Socialshare directive*** is used.
 
 
 
 
-video_detail.html
+
+
+*video_detail.html*
 
    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 social_share_widget">
                 Share with
@@ -63,11 +63,11 @@ video_detail.html
 
 Attribute 'socialshare-url' is used to define the url that is passed to the social media crawler for the purpose of grabbing the details while sharing.
 
-Notice how a slug is passed on with the url.
+Notice how a slug -*{{video.slug}}* is passed on with the url.
 
 2. Define the url pattern in urls.py
 
-urls.py 
+*urls.py *
 
 urlpatterns = [
    ...,
@@ -76,9 +76,10 @@ urlpatterns = [
    ...,   
 ]
 
-3. Define the view to generate the custom page that will contain the desired meta tags
 
-views.py
+3 Define the view to generate the custom page that will contain the desired meta tags
+
+*views.py*
 
 class RichSocialShare(TemplateView):
     template_name = "social_share/RichShare.html"
