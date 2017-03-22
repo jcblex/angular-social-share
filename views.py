@@ -1,6 +1,6 @@
 from django.conf import settings
 
-class SocialShare(TemplateView):
+class RichSocialShare(TemplateView):
     template_name = "path/RichShare.html"
 
     def get(self, request, *args, **kwargs):
