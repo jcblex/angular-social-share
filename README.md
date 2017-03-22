@@ -80,7 +80,7 @@ class RichSocialShare(TemplateView):
             return render(request, self.template_name, {'video': video_obj})
         return render(request, self.template_name, {})
 ```
-### 4. The template can be as
+### 4. The template can be something as
 
 RichShare.html
 ```html
