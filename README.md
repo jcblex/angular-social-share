@@ -6,11 +6,11 @@ If yours is a public app, then rich social sharing is something you can't miss i
 
 Search engines crawlers (or bots) were originally designed to crawl HTML content of web pages. As the web evolved, so did the technologies powering websites and JavaScript became an unavoidable part of the web.If you wanted to share something say an article with your Facebook friends, you’d paste the link into the status update box and hope to see something like this: 
 
-![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshot1.jpg?raw=true)
+![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshots/screenshot1.jpg?raw=true)
 
 However, even though you've have included all the necessary Open Graph meta tags, when you paste your link,you will be disappointed to see something more like this:
 
-![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshot2.jpg?raw=true)
+![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshots/screenshot2.jpg?raw=true)
 
 ## The Reason
 
