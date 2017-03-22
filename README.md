@@ -15,13 +15,13 @@ However, even though you've have included all the necessary Open Graph meta tags
 ## The Reason
 
 The crawlers that scrape the HTML do not evaluate JavaScript. Therefore, when they crawl the app, this is what they will see:
-
+```html
 <head>
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
 </head>
-
+```
 ## The Solution
 
 The solution is basically to pass the  social media crawler a custom url with a slug which generates a custom page that contains the desired meta tags, all filled with the correct information when the social media crawler arrives.
