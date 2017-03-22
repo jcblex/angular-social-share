@@ -1,4 +1,4 @@
-# Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) with Django
+# Enable Rich Social Sharing in Your AngularJS App(Without Prerender.io) using Django
 
 ## Problem With AngularJS
 
@@ -30,7 +30,7 @@ The solution is basically to pass the  social media crawler a custom url with a 
 
 ### 1. An angularjs directive for sharing urls and content on social networks such as (facebook, google+, twitter, pinterest and so on).
 
-Here Angular ***Socialshare directive*** is used.
+Here Angular ***[Socialshare directive](https://github.com/720kb/angular-socialshare)*** is used.
 
 *video_detail.html*
 ```html
