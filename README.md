@@ -2,7 +2,7 @@
 
 ## Problem With AngularJS
 
-If yours is a public app, then rich social sharing is something you can't miss in your app.Facebook, Twitter,Google+ can fetch more than just the page title and image. This is achieved by using special meta tags in the HTML head. For example, Facebook and some other sites can read the Open Graph protocol.Twitter uses a very similar system, but with a prefix of “twitter:” rather than “og:”.
+If yours is a public app, then rich social sharing is something you can't miss in your app.Facebook, Twitter,Google+ etc can fetch more than just the page title and image. This is achieved by using special meta tags in the HTML head. For example, Facebook and some other sites can read the Open Graph protocol.Twitter uses a very similar system, but with a prefix of “twitter:” rather than “og:”.
 
 Search engines crawlers (or bots) were originally designed to crawl HTML content of web pages. As the web evolved, so did the technologies powering websites and JavaScript became an unavoidable part of the web.If you wanted to share something say an article with your Facebook friends, you’d paste the link into the status update box and hope to see something like this: 
 
