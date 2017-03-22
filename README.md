@@ -66,7 +66,7 @@ Notice how a slug *{{video.slug}}* is passed on with the url.
 urlpatterns = [
    ...,
    ...,
-   url(r'^share-redirect-url/(?P<slug>[-\w]+)/$', SocialShare.as_view(), name='rich_share_redirect'),
+   url(r'^share-redirect-url/(?P<slug>[-\w]+)/$', RichSocialShare.as_view(), name='rich_share_redirect'),
    ...,   
 ]
 ```
