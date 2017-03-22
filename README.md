@@ -10,7 +10,7 @@ Search engines crawlers (or bots) were originally designed to crawl HTML content
 
 However, even though you've have included all the necessary Open Graph meta tags, when you paste your link,you will be disappointed to see something more like this:
 
-![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshot2.jpg?raw=true)
+![alt tag](https://github.com/jcblex/angular-social-share/blob/master/screenshot2.png?raw=true)
 
 ## The Reason
 
