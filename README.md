@@ -86,7 +86,7 @@ class RichSocialShare(TemplateView):
 ```
 ### 4. The template can be something as
 
-RichShare.html
+*RichShare.html*
 ```html
 <!DOCTYPE html>
 <html>
