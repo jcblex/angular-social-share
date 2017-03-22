@@ -105,7 +105,7 @@ class RichSocialShare(TemplateView):
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script type="text/javascript">
-//    To redirect to the original content page
+//    To redirect to the original content page upon clicking the link
    $( document ).ready(function() {
       window.location.href = window.location.origin + "/#/video/{{ video.slug }}" 
 });
