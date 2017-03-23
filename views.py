@@ -1,7 +1,7 @@
 from django.conf import settings
 
 class RichSocialShare(TemplateView):
-    template_name = "path/RichShare.html"
+    template_name = "path/rich_share.html"
 
     def get(self, request, *args, **kwargs):
         if kwargs['slug']:
