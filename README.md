@@ -75,7 +75,7 @@ urlpatterns = [
 *views.py*
 ```python 
 class RichSocialShare(TemplateView):
-    template_name = "social_share/RichShare.html"
+    template_name = "social_share/rich_share.html"
 
     def get(self, request, *args, **kwargs):
         if kwargs['slug']:
@@ -86,7 +86,7 @@ class RichSocialShare(TemplateView):
 ```
 ### 4. The template can be something as
 
-*RichShare.html*
+*rich_share.html*
 ```html
 <!DOCTYPE html>
 <html>
